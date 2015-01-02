@@ -1,8 +1,8 @@
 /*
 	Fluid Baseline Grid v1.0.0
-	Designed & Built by Josh Hopkins and 40 Horse, http://40horse.com	
+	Designed & Built by Josh Hopkins and 40 Horse, http://40horse.com
 	Licensed under Unlicense, http://unlicense.org/
-	
+
 	Base stylesheet with CSS normalization, typographic baseline grid and progressive responsiveness
 */
 
@@ -12,7 +12,7 @@ audio[controls],canvas,video {display: inline-block; *display: inline; zoom: 1}
 
 /* BASE */
 html {height: 100%; font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%} /* Force scrollbar in non-IE and Remove iOS text size adjust without disabling user zoom */
-body {margin: 0; min-height: 100%; -webkit-font-smoothing:antialiased; font-smoothing:antialiased; text-rendering:optimizeLegibility; background:url('../images/24px_grid_bg.gif') 0 1.1875em} /* Improve default text rendering, handling of kerning pairs and ligatures */
+body {margin: 0; min-height: 100%; -webkit-font-smoothing:antialiased; font-smoothing:antialiased; text-rendering:optimizeLegibility; } /* Improve default text rendering, handling of kerning pairs and ligatures */
 
 /* DEFAULT FONT SETTINGS */
 /* 16px base font size with 150% (24px) friendly, unitless line height and margin for vertical rhythm */
@@ -25,7 +25,7 @@ p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldse
 h1, h2, h3, h4, h5, h6 {font-family:"Lucida Grande", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic Pro", "メイリオ", Meiryo, Verdana, Arial, sans-serif;color:#222;text-shadow:1px 1px 1px rgba(0,0,0,.10)}
 h1 {margin: 0; font-size: 3.75em; line-height: 1.2em; margin-bottom: 0.4em} /* 60px / 72px */
 h2 {margin: 0; font-size: 3em; line-height: 1em; margin-bottom: 0.5em} /* 48px / 48px */
-h3 {margin: 0; font-size: 2.25em; line-height: 1.3333333333333333333333333333333em; margin-bottom: 0.6667em} /* 36px / 48px */ 
+h3 {margin: 0; font-size: 2.25em; line-height: 1.3333333333333333333333333333333em; margin-bottom: 0.6667em} /* 36px / 48px */
 h4 {margin: 0; font-size: 1.5em; line-height: 1em; margin-bottom: 1em} /* 24px / 24px */
 h5 {margin: 0; font-size: 1.3125em; line-height: 1.1428571428571428571428571428571em; margin-bottom: 1.1428571428571428571428571428571em} /* 21px / 24px */
 h6 {margin: 0; font-size: 1.125em; line-height: 1.3333333333333333333333333333333em; margin-bottom: 1.3333333333333333333333333333333em} /* 18px / 24px */
@@ -124,33 +124,33 @@ Change widths as necessary
 /* MOBILE PORTRAIT */
 @media only screen and (min-width: 320px) {
 	body {
-		
+
 	}
 }
 
 /* MOBILE LANDSCAPE */
 @media only screen and (min-width: 480px) {
 	body {
-		
+
 	}
 }
 
 /* SMALL TABLET */
 @media only screen and (min-width: 600px) {
 	body {
-		
+
 	}
 }
 
 /* TABLET/NETBOOK */
-@media only screen and (min-width: 768px) { 
+@media only screen and (min-width: 768px) {
 	body {
-		
+
 	}
-	
+
 	/* COLUMN GRID */
 	.g1,.g2,.g3 {display:inline; float: left}
-	
+
 	/* 2 COLUMN GRID */
 	.g1 {width:48.0%}
 	.g2 {width:48.0%}
@@ -158,18 +158,18 @@ Change widths as necessary
 }
 
 /* LANDSCAPE TABLET/NETBOOK/LAPTOP */
-@media only screen and (min-width: 1024px) { 
+@media only screen and (min-width: 1024px) {
 	body {
 
 	}
-	
+
 	/* 3 COLUMN GRID */
 	.g1 {width:31.333%}
 	.g2 {width:64.667%;}
 	.g3 {width:98.0%}
 }
 
-@media only screen and (min-width: 1280px) { 
+@media only screen and (min-width: 1280px) {
 /* DESKTOP */
 		body {
 
@@ -178,8 +178,8 @@ Change widths as necessary
 
 /* WIDESCREEN */
 /* Increased body size for legibility */
-@media only screen and (min-width: 1400px) { 
-	body {font-size:116.75%; background:url('../images/28px_grid_bg.gif') 0 1.25em; max-width:1440px} /* 18.5px / 28px */
+@media only screen and (min-width: 1400px) {
+	body {font-size:116.75%; max-width:1440px} /* 18.5px / 28px */
 }
 
 
